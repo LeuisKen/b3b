@@ -11,74 +11,75 @@ ArrayBuffer -------- Buffer
    ----  base64  -----
 ```
 
+
 ### api
 
-- #### <a href="index.js?source#L7" target="_blank"><b>0</b></a>
+- #### <a href="index.js?source#L7" target="_blank"><b>0 </b></a>
 
-  - **<u>file</u>**: 
+  - **file**:  
 
     buffer convert util
 
-  - **<u>author</u>**: 
+  - **author**:  
 
     junmer
 
-  - **<u>description</u>**: 
+  - **description**:  
 
     ArrayBuffer / Buffer / base64 convert util
 
-- #### <a href="index.js?source#L16" target="_blank"><b>ab2b (alias: arrayBufferToBuffer ) </b></a>
-  convert arrayBuffer to buffer
+- #### <a href="index.js?source#L16" target="_blank"><b>ab2b (ab)  <small>(alias: arrayBufferToBuffer)</small> </b></a>
+    convert arrayBuffer to buffer
 
-  - **<u>param</u>**: `ab` { _ArrayBuffer_ }
-
-    arrayBuffer
-
-  - **<u>return</u>**: { _buffer_ }
-
-    buffer
-
-- #### <a href="index.js?source#L36" target="_blank"><b>b2ab (alias: bufferToArrayBuffer ) </b></a>
-  convert buffer to arrayBuffer
-
-  - **<u>param</u>**: `buffer` { _buffer_ }
-
-    buffer
-
-  - **<u>return</u>**: { _ArrayBuffer_ }
+  - **param**: `ab` { _ArrayBuffer_ }
 
     arrayBuffer
 
-- #### <a href="index.js?source#L56" target="_blank"><b>a2b (alias: base64ToBuffer ) </b></a>
-  convert base64 string to buffer
+  - **return**:  { _buffer_ }
 
-  - **<u>param</u>**: `str` { _string_ }
+    buffer
+
+- #### <a href="index.js?source#L36" target="_blank"><b>b2ab (buffer)  <small>(alias: bufferToArrayBuffer)</small> </b></a>
+    convert buffer to arrayBuffer
+
+  - **param**: `buffer` { _buffer_ }
+
+    buffer
+
+  - **return**:  { _ArrayBuffer_ }
+
+    arrayBuffer
+
+- #### <a href="index.js?source#L56" target="_blank"><b>a2b (str)  <small>(alias: base64ToBuffer)</small> </b></a>
+    convert base64 string to buffer
+
+  - **param**: `str` { _string_ }
 
     base64 string
 
-  - **<u>return</u>**: { _Buffer_ }
+  - **return**:  { _Buffer_ }
 
     buffer
 
-- #### <a href="index.js?source#L67" target="_blank"><b>b2a (alias: bufferToBase64 ) </b></a>
-  convert buffer to base64 string
+- #### <a href="index.js?source#L67" target="_blank"><b>b2a (str)  <small>(alias: bufferToBase64)</small> </b></a>
+    convert buffer to base64 string
 
-  - **<u>param</u>**: `str` { _string|Buffer_ }
+  - **param**: `str` { _string|Buffer_ }
 
     string or buffer
 
-  - **<u>return</u>**: { _string_ }
+  - **return**:  { _string_ }
 
     base64 string
 
-- #### <a href="index.js?source#L87" target="_blank"><b>b2b (alias: bytesToBase64 ) </b></a>
-  convert arraybuffer to base64 string
+- #### <a href="index.js?source#L87" target="_blank"><b>b2b (ab)  <small>(alias: bytesToBase64)</small> </b></a>
+    convert arraybuffer to base64 string
 
-  - **<u>param</u>**: `ab` { _ArrayBuffer|Array_ }
+  - **param**: `ab` { _ArrayBuffer|Array_ }
 
     ArrayBuffer or Array
 
-  - **<u>return</u>**: { _string_ }
+  - **return**:  { _string_ }
 
     base64 string
 
